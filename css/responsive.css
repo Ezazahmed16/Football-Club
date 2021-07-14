@@ -18,6 +18,13 @@
             font-size: 64px;
             margin: 15px 30px;
         }
+    /* animation */
+    .head_anim_container{
+        display: grid;
+        grid-row-gap: 138px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
         .img_head{
             margin: 50px auto;
         }
@@ -101,6 +108,12 @@
             font-size: 36px;
             margin: 15px 0px;
         }
+            /* animation */
+    .head_anim_container{
+        display: grid;
+        grid-row-gap: 122px;
+        grid-template-columns: repeat(1, 1fr);
+    }
         .img_head{
             margin: 10px auto;
         }
@@ -190,6 +203,16 @@
         font-size: 36px;
         margin: 15px 0px;
     }
+
+    /* animation */
+    .head_anim_container{
+        display: grid;
+        grid-row-gap: 122px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
     .img_head{
         margin: 10px auto;
     }
