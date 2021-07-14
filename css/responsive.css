@@ -6,7 +6,7 @@
 @media all and (min-width: 768px) and (max-width: 1024px) { 
 
         /* header */
-        .container{
+        .container_hd{
             width: auto;
             grid-template-columns: repeat(1, 1fr);
             padding: 80px 0px;
@@ -84,7 +84,7 @@
 @media all and (min-width: 481px) and (max-width: 767px) { 
 
         /* header */
-        .container{
+        .container_hd{
             width: auto;
             grid-template-columns: repeat(1, 1fr);
             padding: 80px 0px;
@@ -173,7 +173,7 @@
 @media all and (max-width: 480px) {
 
     /* header */
-    .container{
+    .container_hd{
         width: auto;
         grid-template-columns: repeat(1, 1fr);
         padding: 80px 0px;
