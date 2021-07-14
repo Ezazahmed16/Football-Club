@@ -27,6 +27,19 @@
         .all_high_video{
             margin: 20px auto;
         }
+        /* <!-- ContactUs --> */
+        #container_contact_head{
+            width: auto;
+            padding: 25px;
+        }
+        .cont_title{
+            font-size: 42px;
+        }
+        .inp input, textarea{
+            width: 360px;
+        }
+
+
     }
 
 /* Tab Devices */
@@ -55,10 +68,22 @@
     .all_high_video{
         margin: 20px auto;
     }
+        /* <!-- ContactUs --> */
+        #container_contact_head{
+            width: auto;
+            padding: 25px;
+        }
+        .cont_title{
+            font-size: 32px;
+        }
+        .inp input, textarea{
+            width: 360px;
+        }
 
 }
 
 /* Mobile Devices */
+
 @media all and (max-width: 480px) {
     /* Players Dtails */
     #container_players_head{
@@ -104,6 +129,20 @@
         height: 248px;
         margin: 20px 5px;
     }
+
+    /* <!-- ContactUs --> */
+    #container_contact_head{
+        width: auto;
+        padding: 20px;
+    }
+    .cont_title{
+        font-size: 32px;
+    }
+    .inp input, textarea{
+        width: 280px;
+    }
+
+
     /* footer */
     .container_foot_social i{
         padding: 15px ;

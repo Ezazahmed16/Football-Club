@@ -105,6 +105,48 @@ main{
     height: 400px;
 }
 
+
+/* <!-- ContactUs --> */
+#container_contact_head{
+    margin: 20px 0px;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(235, 227, 235);
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    width: 1050px;
+}
+.cont_title{
+    color: #0A0826;
+    font-size: 48px;
+}
+    /* input */
+.inp input, textarea{
+    width: 600px;
+    margin: 20px;
+    padding: 20px ;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+input:hover{
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+textarea:hover{
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.cont_btn button{
+    background-color: #E02C6D;
+    width: 172px;
+    height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
 /* footer */
 #footer{
     text-align: center;
