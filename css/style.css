@@ -41,6 +41,10 @@ p, h2, h4{
     font-size: 64px;
     color: #fff;
     margin: 5px 10px;
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
 }
 .head_anim_container{
     display: grid;
@@ -68,8 +72,8 @@ p, h2, h4{
 /* animation */
 .loading-container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin: 18px 0px;
   }
 
   .container_ani{
@@ -201,6 +205,14 @@ main{
     font-size: 16px;
     color: #FFFFFF;
     cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.watch_me button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: rgba(59,173,227,1);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    border: 1px solid #000;
 }
 .all_high_videos{
     padding: 0px 17px;
@@ -290,6 +302,14 @@ textarea:hover{
     font-size: 16px;
     color: #FFFFFF;
     cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.cont_btn button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: rgba(59,173,227,1);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    border: 1px solid #000;
 }
 
 
