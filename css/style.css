@@ -226,7 +226,13 @@ main{
 
 /* <!-- Membership --> */
 
-#container_membership_head{
+.memb_title_head {
+    color: #0A0826;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container_memb{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
