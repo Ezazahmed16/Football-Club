@@ -19,8 +19,16 @@
         align-items: center;
         flex-direction: column;
     }
-}
-}
+        /* Highlights Section */
+        #container_highlights_head{
+            grid-template-columns: repeat(1, 1fr);
+            width: auto;
+        }
+        .all_high_video{
+            margin: 20px auto;
+        }
+    }
+
 /* Tab Devices */
 @media all and (min-width: 481px) and (max-width: 767px) { 
     #container_players_head{
@@ -38,6 +46,16 @@
         align-items: center;
         flex-direction: column;
     }
+
+    /* Highlights Section */
+    #container_highlights_head{
+    grid-template-columns: repeat(1, 1fr);
+        width: auto;
+    }
+    .all_high_video{
+        margin: 20px auto;
+    }
+
 }
 
 /* Mobile Devices */
@@ -86,6 +104,11 @@
         height: 248px;
         margin: 20px 5px;
     }
-    
+    /* footer */
+    .container_foot_social i{
+        padding: 15px ;
+        margin: 0px 10px;
+        font-size: 28px;
+    }
 
 }

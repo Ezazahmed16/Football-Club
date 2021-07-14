@@ -98,6 +98,7 @@ main{
 }
 .all_high_videos{
     padding: 0px 17px;
+    margin: 20px 0px;
 }
 .video{
     width: 535px;
@@ -105,4 +106,28 @@ main{
 }
 
 /* footer */
-
+#footer{
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.foot_logo{
+    width: 260px;
+    height: 110px;
+}
+.container_foot_social i{
+    padding: 15px 15px;
+    margin: 0px 30px;
+    font-size: 32px;
+    color: #10437a;
+    background-color: #e4dada;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.container_foot_social i:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.foot_copywright {
+    margin: 35px 0px;
+    font-size: 18px;
+}
