@@ -1,0 +1,108 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');/* font-family: 'Poppins', sans-serif; */
+
+/* Basic Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;}
+li{
+    list-style: none;
+}
+p, h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Players Dtails */
+#container_players_head{
+    background-color: #eae3e361;
+    width: 1140px;
+    padding: 50px 5px;
+}
+.container_players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    width: 330px;
+    height: 480px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}   
+.player_img{
+    width: 300px;
+    height: 256px;
+}
+.player_name{
+    color: #18191F;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.player_info{
+    color: #6C6C6C;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+/* Highlights Section */
+#container_highlights_head{
+    background-color: #eae3e361;
+    width: 1140px;
+    margin: 50px 0px;
+    padding: 70px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.highlights_all{
+    padding: 0px 50px;
+}
+.high_title{
+    color: #0A0826;
+    font-size: 48px;
+}
+.high_info{
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+.watch_me button{
+    background-color: #E02C6D;
+    width: 172px;
+    height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.all_high_videos{
+    padding: 0px 17px;
+}
+.video{
+    width: 535px;
+    height: 400px;
+}
+
+/* footer */
+
