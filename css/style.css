@@ -18,6 +18,56 @@ p, h2, h4{
 }
 
 
+
+/* header */
+#container_head{
+    background-color: #2d25a0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.container{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px 0px;
+}
+
+
+.title_head h2{
+    font-size: 64px;
+    color: #fff;
+    margin: 5px 10px;
+}
+.watch_live button{
+    background-color: #E02C6D;
+    width: 172px;
+    height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.watch_live button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: rgba(59,173,227,1);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    border: 1px solid #000;
+}
+
+.img_head img{
+    height: 438px;
+    width: 556px;
+}
+
+
+
+
+/* main */
 main{
     justify-content: center;
     align-items: center;

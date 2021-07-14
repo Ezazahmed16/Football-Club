@@ -4,6 +4,25 @@
 }
 /* tab pro */
 @media all and (min-width: 768px) and (max-width: 1024px) { 
+
+        /* header */
+        .container{
+            width: auto;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 80px 0px;
+        }
+        .title_head{
+            text-align: center;
+        }
+        .title_head h2{
+            font-size: 64px;
+            margin: 15px 30px;
+        }
+        .img_head{
+            margin: 50px auto;
+        }
+
+
     #container_players_head{
         width: auto;
     }
@@ -63,6 +82,35 @@
 
 /* Tab Devices */
 @media all and (min-width: 481px) and (max-width: 767px) { 
+
+        /* header */
+        .container{
+            width: auto;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 80px 0px;
+        }
+        .title_head{
+            text-align: center;
+        }
+        .watch_live button{
+            width: 168px;
+            height: 44px;
+            margin: 20px 0px;
+        }
+        .title_head h2{
+            font-size: 36px;
+            margin: 15px 0px;
+        }
+        .img_head{
+            margin: 10px auto;
+        }
+        .img_head img{
+            width: 329px;
+            height: 259.17px;
+        }
+
+
+
     #container_players_head{
         width: auto;
     }
@@ -123,14 +171,42 @@
 /* Mobile Devices */
 
 @media all and (max-width: 480px) {
+
+    /* header */
+    .container{
+        width: auto;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 80px 0px;
+    }
+    .title_head{
+        text-align: center;
+    }
+    .watch_live button{
+        width: 168px;
+        height: 44px;
+        margin: 20px 0px;
+    }
+    .title_head h2{
+        font-size: 36px;
+        margin: 15px 0px;
+    }
+    .img_head{
+        margin: 10px auto;
+    }
+    .img_head img{
+        width: 329px;
+        height: 259.17px;
+    }
+    
+
     /* Players Dtails */
     #container_players_head{
         width: auto;
     }
     .container_players {
         grid-template-columns: repeat(1, 1fr);
-            grid-row-gap: 0;
-            grid-column-gap: 0;
+            grid-row-gap: 10px;
+            grid-column-gap: 0px;
     }
     .player {
         width: auto;
